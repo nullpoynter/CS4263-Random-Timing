@@ -12,7 +12,7 @@ with open('ips.txt') as fp:
             respTime = str(round(r.elapsed.total_seconds(),4))
             currDate = datetime.datetime.now()
             currDate = str(currDate.strftime("%d-%m-%Y %H:%M:%S"))
-            print(url + " " + currDate + " " + respTime + "S")
+            print(url + " " + currDate + " " + respTime + "s")
             url = fp.readline()
         except requests.exceptions.HTTPError as err01:
             print("HTTP error: ", err01)
