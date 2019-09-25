@@ -4,16 +4,17 @@ import datetime
 import requests
 
 with open('ips.txt') as fp:
-    url = fp.readline()
-    while url:
+    line = fp.readline()
+    while line:
         try:
+            url = line.rpartition('@')[2].rstrip()
             r = requests.get(url, timeout=4)
             r.raise_for_status()
             respTime = str(round(r.elapsed.total_seconds(),4))
             currDate = datetime.datetime.now()
             currDate = str(currDate.strftime("%d-%m-%Y %H:%M:%S"))
-            print(url + " " + currDate + " " + respTime + "s " + r.text)
-            url = fp.readline()
+            print(line.rstrip() + " " + respTime + " " + r.text)
+            line = fp.readline()
         except requests.exceptions.HTTPError as err01:
             print("HTTP error: ", err01)
         except requests.exceptions.ConnectionError as err02:
