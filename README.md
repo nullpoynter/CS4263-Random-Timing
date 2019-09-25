@@ -13,7 +13,7 @@ $ sudo apt-get install python-setuptools python-dev build-essential
 It will also require the <code>requests</code> library. To install, enter:
 
 ```
-$ pip install requests
+$ sudo pip install requests
 ```
 
 At multiple points, you may be asked if you would like to proceed ("Do you want to continue?"). Simply answer "Y" and press enter to continue. If at any point you would like to quit the installation mid-process, enter "CTRL+C".
