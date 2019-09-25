@@ -11,8 +11,6 @@ with open('ips.txt') as fp:
             r = requests.get(url, timeout=4)
             r.raise_for_status()
             respTime = str(round(r.elapsed.total_seconds(),4))
-            currDate = datetime.datetime.now()
-            currDate = str(currDate.strftime("%d-%m-%Y %H:%M:%S"))
             print(line.rstrip() + " " + respTime + " " + r.text)
             line = fp.readline()
         except requests.exceptions.HTTPError as err01:
