@@ -4,7 +4,7 @@ import datetime
 import requests
 import json
 
-with open('working-ips.txt') as fp:
+with open('ips.txt') as fp:
     line = fp.readline()
     while line:
         try:
