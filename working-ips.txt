@@ -45,3 +45,14 @@ us-west2_us-west2-a_VM_Python@http://35.236.38.77/vm/python.py
 us-west2_us-west2-a_VM_Java@http://35.236.38.77/vm/java.sh
 us-west2_us-west2-a_app_Python@https://pyapp-254017.appspot.com/
 us-west2_us-west2-a_app_Java@https://javaapp-3298719.appspot.com/
+us-west1_a_app_Python@http://ip-timing.appspot.com/
+europe-west1_b_app_python@https://timing-experiment.appspot.com/
+europe-west1_b_vm_Java@http://35.195.133.24:8000/
+europe-west1_b_vm_Python@http://35.195.133.24:8080/
+europe-north1_b_VM_Java@http://35.228.170.187/
+europe-west2_c_app_Python@http://voltaic-azimuth-254421.appspot.com/
+northamerica-northeast1_a_app_Python@https://a-project-made-of-time.appspot.com/
+europe-west6_a_app_Python@https://project1-2-254017.appspot.com/
+us-east1_b_app_Python@https://pythonae-east.appspot.com/
+us-east1-b-app-Java@http://airy-web-254017.appspot.com/demo
+europe-west2_b_app_python@https://python-app-new-server.appspot.com/
