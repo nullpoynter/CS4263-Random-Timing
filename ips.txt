@@ -1,4 +1,4 @@
 europe-west3_c_app_Python@https://xenon-blade-254017.appspot.com/
 europe-west4_a_VM_Python@http://35.204.2.146/
 europe-west3_c_app_java@https://randomtiming.appspot.com/demo
-europe-west4_a_VM_Java@https://35.204.214.144/
+europe-west4_a_VM_Java@http://35.189.102.68:8080/
